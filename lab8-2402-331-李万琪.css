@@ -1,0 +1,64 @@
+#call {
+            width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        /* 按钮样式 */
+        #btn1,
+        #btn2 {
+            width: 120px;
+            height: 40px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: lightgreen;
+            color: white;
+            cursor: pointer;
+            margin: 10px 10px;
+        }
+
+        /* 点名信息提示样式 */
+       .info {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        /* 点名结果显示区域样式 */
+       .screen {
+            position: relative;
+            width: 120px;
+            height: 60px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            margin: 0 auto;
+            font-size: 24px;
+            line-height: 60px;
+        }
+
+        /* 号码列表样式 */
+        ul {
+            list-style-type: none;
+            padding: 0;
+            width: 550px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        ul li {
+            width: 60px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            border: 2px dashed #cc6666;
+            border-radius: 50%;
+            font-size: 14px;
+            display: inline-block;
+            margin: 5px;
+        }
+
+        li.pitch {
+            background-color: #ccccff;
+            color: #003399;
+            font-weight: bold;
+        }
